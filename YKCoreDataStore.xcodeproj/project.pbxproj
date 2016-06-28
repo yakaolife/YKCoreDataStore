@@ -18,10 +18,10 @@
 		D0876A151D20DA5500750B6D /* YKDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876A141D20DA5500750B6D /* YKDataStore.swift */; };
 		D0876A181D20DF7900750B6D /* YKData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876A171D20DF7900750B6D /* YKData.swift */; };
 		D0876A1A1D20E0AB00750B6D /* YKInnerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876A191D20E0AB00750B6D /* YKInnerData.swift */; };
-		D0876AAE1D23350B00750B6D /* YKNotebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876AAA1D23350B00750B6D /* YKNotebook+CoreDataProperties.swift */; };
-		D0876AAF1D23350B00750B6D /* YKNotebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876AAB1D23350B00750B6D /* YKNotebook.swift */; };
-		D0876AB01D23350B00750B6D /* YKNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876AAC1D23350B00750B6D /* YKNote+CoreDataProperties.swift */; };
-		D0876AB11D23350B00750B6D /* YKNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876AAD1D23350B00750B6D /* YKNote.swift */; };
+		D0876AB71D23382000750B6D /* YKNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876AB31D23382000750B6D /* YKNote+CoreDataProperties.swift */; };
+		D0876AB81D23382000750B6D /* YKNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876AB41D23382000750B6D /* YKNote.swift */; };
+		D0876AB91D23382000750B6D /* YKNotebook+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876AB51D23382000750B6D /* YKNotebook+CoreDataProperties.swift */; };
+		D0876ABA1D23382000750B6D /* YKNotebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0876AB61D23382000750B6D /* YKNotebook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,10 +59,10 @@
 		D0876A141D20DA5500750B6D /* YKDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKDataStore.swift; sourceTree = "<group>"; };
 		D0876A171D20DF7900750B6D /* YKData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKData.swift; sourceTree = "<group>"; };
 		D0876A191D20E0AB00750B6D /* YKInnerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKInnerData.swift; sourceTree = "<group>"; };
-		D0876AAA1D23350B00750B6D /* YKNotebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "YKNotebook+CoreDataProperties.swift"; path = "../YKNotebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		D0876AAB1D23350B00750B6D /* YKNotebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YKNotebook.swift; path = ../YKNotebook.swift; sourceTree = "<group>"; };
-		D0876AAC1D23350B00750B6D /* YKNote+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "YKNote+CoreDataProperties.swift"; path = "../YKNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		D0876AAD1D23350B00750B6D /* YKNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YKNote.swift; path = ../YKNote.swift; sourceTree = "<group>"; };
+		D0876AB31D23382000750B6D /* YKNote+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YKNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0876AB41D23382000750B6D /* YKNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKNote.swift; sourceTree = "<group>"; };
+		D0876AB51D23382000750B6D /* YKNotebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YKNotebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0876AB61D23382000750B6D /* YKNotebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKNotebook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,12 +147,12 @@
 		D0876AB21D2337BC00750B6D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D0876AAA1D23350B00750B6D /* YKNotebook+CoreDataProperties.swift */,
-				D0876AAB1D23350B00750B6D /* YKNotebook.swift */,
-				D0876AAC1D23350B00750B6D /* YKNote+CoreDataProperties.swift */,
+				D0876AB31D23382000750B6D /* YKNote+CoreDataProperties.swift */,
+				D0876AB41D23382000750B6D /* YKNote.swift */,
+				D0876AB51D23382000750B6D /* YKNotebook+CoreDataProperties.swift */,
+				D0876AB61D23382000750B6D /* YKNotebook.swift */,
 				D0876A171D20DF7900750B6D /* YKData.swift */,
 				D0876A191D20E0AB00750B6D /* YKInnerData.swift */,
-				D0876AAD1D23350B00750B6D /* YKNote.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -288,15 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0876AB01D23350B00750B6D /* YKNote+CoreDataProperties.swift in Sources */,
-				D0876AAF1D23350B00750B6D /* YKNotebook.swift in Sources */,
+				D0876AB71D23382000750B6D /* YKNote+CoreDataProperties.swift in Sources */,
+				D0876AB91D23382000750B6D /* YKNotebook+CoreDataProperties.swift in Sources */,
+				D0876AB81D23382000750B6D /* YKNote.swift in Sources */,
 				D0876A1A1D20E0AB00750B6D /* YKInnerData.swift in Sources */,
-				D0876AB11D23350B00750B6D /* YKNote.swift in Sources */,
 				D08769E61D20D9C400750B6D /* ViewController.swift in Sources */,
 				D08769E41D20D9C400750B6D /* AppDelegate.swift in Sources */,
+				D0876ABA1D23382000750B6D /* YKNotebook.swift in Sources */,
 				D08769EC1D20D9C400750B6D /* YKCoreDataStore.xcdatamodeld in Sources */,
 				D0876A181D20DF7900750B6D /* YKData.swift in Sources */,
-				D0876AAE1D23350B00750B6D /* YKNotebook+CoreDataProperties.swift in Sources */,
 				D0876A151D20DA5500750B6D /* YKDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

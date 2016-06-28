@@ -6,14 +6,13 @@
 //  Copyright © 2016 Ya Kao. All rights reserved.
 //
 
-//YKNote & YKNotebook are created the same way as Udacity's Core Data class
-
 import Foundation
 import CoreData
 
 
 class YKNotebook: NSManagedObject {
 
+// Insert code here to add functionality to your managed object subclass
     convenience init(title:String, context: NSManagedObjectContext){
         if let entity = NSEntityDescription.entityForName("Notebook", inManagedObjectContext: context){
             self.init(entity: entity, insertIntoManagedObjectContext: context)
@@ -24,5 +23,17 @@ class YKNotebook: NSManagedObject {
             fatalError("Unable to find Entity name!")
         }
     }
-
+    
+    //MARK: - helper function
+//    var humanReadableAge: String{
+//        get{
+//            let formatter = NSDateFormatter()
+//            formatter.timeStyle = .NoStyle
+//            formatter.dateStyle = .ShortStyle
+//            formatter.locale = NSLocale.currentLocale()
+//            formatter.doesRelativeDateFormatting = true
+//            
+//            return formatter.stringFromDate(self.creationDate!)
+//        }
+//    }
 }

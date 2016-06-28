@@ -6,15 +6,13 @@
 //  Copyright © 2016 Ya Kao. All rights reserved.
 //
 
-
-//YKNote & YKNotebook are created the same way as Udacity's Core Data class
-
 import Foundation
 import CoreData
 
 
 class YKNote: NSManagedObject {
 
+// Insert code here to add functionality to your managed object subclass
     convenience init(text:String = "New Note", context: NSManagedObjectContext){
         if let entity = NSEntityDescription.entityForName("Note", inManagedObjectContext: context){
             self.init(entity: entity, insertIntoManagedObjectContext: context)
@@ -38,5 +36,4 @@ class YKNote: NSManagedObject {
             return formatter.stringFromDate(self.creationDate!)
         }
     }
-
 }

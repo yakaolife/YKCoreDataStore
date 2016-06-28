@@ -16,6 +16,6 @@ extension YKNotebook {
 
     @NSManaged var title: String?
     @NSManaged var creationDate: NSDate?
-    @NSManaged var note: NSManagedObject?
+    @NSManaged var note: YKNote?
 
 }
