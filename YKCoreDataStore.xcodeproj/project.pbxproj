@@ -59,10 +59,10 @@
 		D0876A141D20DA5500750B6D /* YKDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKDataStore.swift; sourceTree = "<group>"; };
 		D0876A171D20DF7900750B6D /* YKData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKData.swift; sourceTree = "<group>"; };
 		D0876A191D20E0AB00750B6D /* YKInnerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKInnerData.swift; sourceTree = "<group>"; };
-		D0876AAA1D23350B00750B6D /* YKNotebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YKNotebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		D0876AAB1D23350B00750B6D /* YKNotebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKNotebook.swift; sourceTree = "<group>"; };
-		D0876AAC1D23350B00750B6D /* YKNote+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YKNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		D0876AAD1D23350B00750B6D /* YKNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKNote.swift; sourceTree = "<group>"; };
+		D0876AAA1D23350B00750B6D /* YKNotebook+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "YKNotebook+CoreDataProperties.swift"; path = "../YKNotebook+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0876AAB1D23350B00750B6D /* YKNotebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YKNotebook.swift; path = ../YKNotebook.swift; sourceTree = "<group>"; };
+		D0876AAC1D23350B00750B6D /* YKNote+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "YKNote+CoreDataProperties.swift"; path = "../YKNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D0876AAD1D23350B00750B6D /* YKNote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YKNote.swift; path = ../YKNote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +93,6 @@
 		D08769D71D20D9C400750B6D = {
 			isa = PBXGroup;
 			children = (
-				D0876AAA1D23350B00750B6D /* YKNotebook+CoreDataProperties.swift */,
-				D0876AAB1D23350B00750B6D /* YKNotebook.swift */,
-				D0876AAC1D23350B00750B6D /* YKNote+CoreDataProperties.swift */,
-				D0876AAD1D23350B00750B6D /* YKNote.swift */,
 				D08769E21D20D9C400750B6D /* YKCoreDataStore */,
 				D08769FA1D20D9C400750B6D /* YKCoreDataStoreTests */,
 				D0876A051D20D9C400750B6D /* YKCoreDataStoreUITests */,
@@ -117,6 +113,7 @@
 		D08769E21D20D9C400750B6D /* YKCoreDataStore */ = {
 			isa = PBXGroup;
 			children = (
+				D0876AB21D2337BC00750B6D /* Model */,
 				D08769E31D20D9C400750B6D /* AppDelegate.swift */,
 				D08769E51D20D9C400750B6D /* ViewController.swift */,
 				D08769E71D20D9C400750B6D /* Main.storyboard */,
@@ -125,8 +122,6 @@
 				D08769F21D20D9C400750B6D /* Info.plist */,
 				D08769EA1D20D9C400750B6D /* YKCoreDataStore.xcdatamodeld */,
 				D0876A141D20DA5500750B6D /* YKDataStore.swift */,
-				D0876A171D20DF7900750B6D /* YKData.swift */,
-				D0876A191D20E0AB00750B6D /* YKInnerData.swift */,
 			);
 			path = YKCoreDataStore;
 			sourceTree = "<group>";
@@ -147,6 +142,19 @@
 				D0876A081D20D9C400750B6D /* Info.plist */,
 			);
 			path = YKCoreDataStoreUITests;
+			sourceTree = "<group>";
+		};
+		D0876AB21D2337BC00750B6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0876AAA1D23350B00750B6D /* YKNotebook+CoreDataProperties.swift */,
+				D0876AAB1D23350B00750B6D /* YKNotebook.swift */,
+				D0876AAC1D23350B00750B6D /* YKNote+CoreDataProperties.swift */,
+				D0876A171D20DF7900750B6D /* YKData.swift */,
+				D0876A191D20E0AB00750B6D /* YKInnerData.swift */,
+				D0876AAD1D23350B00750B6D /* YKNote.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
