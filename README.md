@@ -1,5 +1,5 @@
 # YKCoreDataStore
-A Core Data sample with some helper functions, and IMHO good and easy-to-use structure.<br>
+A Core Data sample with some helper functions.<br>
 Mainly for personal study & exploration.
 
 ###TODO:
